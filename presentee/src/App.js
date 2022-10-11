@@ -9,7 +9,6 @@ import { useStateContext } from './contexts/ContextProvider';
 import './App.css'
 
 const App = () => {
-    // youtube: https://www.youtube.com/watch?v=jx5hdo50a2M at 1:14:50
     const { activeMenu } = useStateContext();
 
     return (
