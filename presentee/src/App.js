@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Area, Line, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
+import { Presentee, Presentations, Calendar, Presenters, Stacked, Pyramid, Audience, Kanban, Area, Line, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
 import { useStateContext } from './contexts/ContextProvider';
 import './App.css'
 
@@ -42,13 +42,13 @@ const App = () => {
                     <div>
                         <Routes>
                             {/* Dashboard */}
-                            <Route path="/" element={ <Ecommerce /> } /> {/* Presentee */}
-                            <Route path="/ecommerce" element={<Ecommerce/>} /> {/* Presentee */}
+                            <Route path="/" element={ <Presentee /> } /> {/* Ecommerce */}
+                            <Route path="/presentee" element={<Presentee />} /> {/* Ecommerce */}
 
                             {/* Pages */}
-                            <Route path="/orders" element={ <Orders /> } /> {/* Presentations */}
-                            <Route path="/employees" element={ <Employees /> } /> {/* Presentors */}
-                            <Route path="/customers" element={ <Customers /> } /> {/* Audience */}
+                            <Route path="/presentations" element={ <Presentations /> } /> {/* orders */}
+                            <Route path="/presenters" element={ <Presenters /> } /> {/* Presentors */}
+                            <Route path="/audience" element={ <Audience /> } /> {/* Customers */}
 
                             {/* Apps */}
                             <Route path="/kanban" element={ <Kanban /> } />
