@@ -1,5 +1,4 @@
 import React from 'react';
-import { Component } from 'react';
 
 class InputFile extends React.Component {
     constructor(props) {
