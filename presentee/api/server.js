@@ -57,6 +57,6 @@ db.mongoose
     process.exit();
   });
 
-require("./api/routes/presentation.routes")(app);
+require("./routes/presentation.routes")(app);
 
 module.exports = app;
