@@ -23,7 +23,7 @@ class InputFile extends React.Component {
             <label> Filename:
               <input type="file" value={this.state.value} onChange={this.handleChange} />        
             </label>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Upload" />
           </form>
         );
     }
