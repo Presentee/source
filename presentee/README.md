@@ -1,6 +1,13 @@
 So I have gutted pretty much the entire project and started the
 project to the bare bones running React version 18.
 
+# React version 18 updates (PLEASE READ)
+https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis
+
+ # Never write code that you don't fully understand
+ write tests, there have been updates to testing tools in version 18 , the format and the attributes are all different from versions < 18.
+
+ 
 
 
 
