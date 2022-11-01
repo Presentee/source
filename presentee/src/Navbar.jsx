@@ -14,6 +14,7 @@ const Navbar = () => {
   )
 }
 
+/* The CustomLink will be used to */
 const CustomLink = ({ to, children, ...props }) => {
   const resolvedPath = useResolvedPath(to)
   const isActive = useMatch({ path: resolvedPath.pathname, end: true })

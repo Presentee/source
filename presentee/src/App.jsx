@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import InputFile from './InputFile'
 import Pricing from "./pages/Pricing"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -14,7 +15,9 @@ const App = () => {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <InputFile />
       </div>
+      
     </>
   )
 }
