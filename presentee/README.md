@@ -1,11 +1,13 @@
+So I have gutted pretty much the entire project and started the
+project to the bare bones running React version 18.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## youtube video
-https://www.youtube.com/watch?v=jx5hdo50a2M 
-## last stopping point 
-1:14:50
 
 ## Available Scripts
 
