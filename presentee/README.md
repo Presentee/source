@@ -1,5 +1,14 @@
+# How to run
+Open up project and run npm start in one terminal.
+Then open up another terminal, cd into 'api' and the run npm start to run the express server
+
+There must be a way to do it without both im guessing, but havent figured it out.
+
+
 So I have gutted pretty much the entire project and started the
 project to the bare bones running React version 18.
+
+
 
 # React version 18 updates (PLEASE READ)
 https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis
